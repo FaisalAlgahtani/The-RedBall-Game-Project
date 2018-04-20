@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657892, g: 0.49641287, b: 0.5748173, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -239,6 +239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 255760852}
+  forwardForce: 2000
+  sideWaysForce: 500
 --- !u!1 &933848778
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +448,7 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1953036716}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 64890eae9796f854ea67a2c7c0192790, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
