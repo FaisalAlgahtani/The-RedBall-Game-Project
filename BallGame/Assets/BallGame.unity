@@ -448,7 +448,7 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1953036716}
-  m_Material: {fileID: 13400000, guid: 64890eae9796f854ea67a2c7c0192790, type: 2}
+  m_Material: {fileID: 13400000, guid: 3bc3e5e9a8f93624f98a7ea331a0897c, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -485,6 +485,7 @@ GameObject:
   - component: {fileID: 2074685312}
   - component: {fileID: 2074685311}
   - component: {fileID: 2074685310}
+  - component: {fileID: 2074685314}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -555,3 +556,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2074685314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2074685309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5e0a6bcc28d9c4ebd203534bc819da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerBall: {fileID: 255760850}
+  offset: {x: 0, y: 1, z: -5}
