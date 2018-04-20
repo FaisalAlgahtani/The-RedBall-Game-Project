@@ -6,8 +6,13 @@ PhysicMaterial:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: slip
+<<<<<<< HEAD
   dynamicFriction: 0
   staticFriction: 0
+=======
+  dynamicFriction: 0.6
+  staticFriction: 0.6
+>>>>>>> 851448b7f2bde01e851bd4e6e1052f4f5a32307e
   bounciness: 0
   frictionCombine: 0
   bounceCombine: 0
