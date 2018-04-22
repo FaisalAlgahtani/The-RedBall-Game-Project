@@ -5,11 +5,13 @@ public class GameManagerScript : MonoBehaviour
 {
     bool gameHasEnded = false;
 
+    public GameObject completeLevelUI;
+
     public float restartDelay = 1f;
 
     public void CompleteLevel()
     {
-        Debug.Log("LEVEL WON!");
+        completeLevelUI.SetActive(true);
     }
 
     public void EndGame()
