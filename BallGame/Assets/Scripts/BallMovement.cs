@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
@@ -19,14 +17,19 @@ public class BallMovement : MonoBehaviour
         if (Input.GetKey("l"))
         {
 
-            rb.AddForce(sideWaysForce * Time.deltaTime, 0, 0);
+            rb.AddForce(sideWaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
         if (Input.GetKey("d"))
 
         {
-            rb.AddForce(-sideWaysForce * Time.deltaTime, 0, 0);
+            rb.AddForce(-sideWaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
         
+        if (rb.position.y < -1f)
+        {
+
+            FindObjectOfType<GameManagerScript>().EndGame();
+        }
     }
 }
