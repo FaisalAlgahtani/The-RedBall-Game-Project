@@ -518,6 +518,7 @@ GameObject:
   - component: {fileID: 301486105}
   - component: {fileID: 301486104}
   - component: {fileID: 301486106}
+  - component: {fileID: 301486107}
   m_Layer: 5
   m_Name: LevelDone
   m_TagString: Untagged
@@ -595,6 +596,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &301486107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301486102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 009b45983cb36af4ba865c0ef92e669b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &613811749
 GameObject:
   m_ObjectHideFlags: 0
