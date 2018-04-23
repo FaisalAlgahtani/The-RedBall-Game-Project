@@ -517,6 +517,7 @@ GameObject:
   - component: {fileID: 301486103}
   - component: {fileID: 301486105}
   - component: {fileID: 301486104}
+  - component: {fileID: 301486106}
   m_Layer: 5
   m_Name: LevelDone
   m_TagString: Untagged
@@ -541,7 +542,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000045776, y: 0.000002861}
+  m_AnchoredPosition: {x: 0.0000457759, y: 0.000002861}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &301486104
@@ -577,6 +578,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 301486102}
+--- !u!95 &301486106
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301486102}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2be0e47f6983c43478ef33621608f6b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &613811749
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,7 +724,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000014386758, y: -11}
+  m_AnchoredPosition: {x: -0.000014386838, y: -11}
   m_SizeDelta: {x: 1282, y: 523.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &622793189
