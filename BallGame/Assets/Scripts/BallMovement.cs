@@ -7,7 +7,6 @@ public class BallMovement : MonoBehaviour
 
     public float forwardForce = 2000f;
     public float sideWaysForce = 500f;
-    public int points = 0;
 
     // marked this with fixedUpdate becaus; iam using it to mess with the physics.
     void FixedUpdate()
@@ -33,5 +32,4 @@ public class BallMovement : MonoBehaviour
             FindObjectOfType<GameManagerScript>().EndGame();
         }
     }
-
 }
