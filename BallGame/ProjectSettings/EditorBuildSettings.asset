@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Menu.unity
+    guid: 8abed1e4a758c0e4b8a8818bf77caf72
+  - enabled: 1
     path: Assets/BallGame level1.unity
     guid: cc16296ac2580374d9e7dc6c32baed27
   - enabled: 1
@@ -14,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BallGame level3.unity
     guid: 7c9a45044a7a8204db74198ff8087c35
+  - enabled: 1
+    path: Assets/Credits.unity
+    guid: ab850a33ab00f8542a51b205044477ff
